@@ -118,7 +118,7 @@ const useDraggable = ({ onDrag = id } = {}) => {
   // actually it makes sense to return an array only when
   // you expect that on the caller side all of the fields
   // will be usually renamed
-  return [legacyRef, pressed, changePosition];
+  return [legacyRef, pressed, position, changePosition];
 
   // > seems the best of them all to me
   // this code doesn't look pretty anymore, huh?
